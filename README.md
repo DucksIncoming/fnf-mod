@@ -7,7 +7,7 @@ Art:
 - Jojo_Powers
 
 Music:
-- whenituesday
+- TBD
 
 ## INFO ##
 
