@@ -30,7 +30,7 @@ class StoryMenuState extends MusicBeatState
 		['Satin-Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
 		['Senpai', 'Roses', 'Thorns'],
-		['FNAF 1', 'FNAF 2', 'IDFK']
+		['Five Nights at Freddys', 'Its been so Long', 'Just Gold']
 	];
 	var curDifficulty:Int = 1;
 
