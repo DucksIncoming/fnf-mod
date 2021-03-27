@@ -19,6 +19,7 @@ class Character extends FlxSprite
 
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
+		trace(x, y, character);
 		super(x, y);
 
 		animOffsets = new Map<String, Array<Dynamic>>();
@@ -545,6 +546,7 @@ class Character extends FlxSprite
 	{
 		if (!curCharacter.startsWith('bf'))
 		{
+			trace(animation);
 			if (animation.curAnim.name.startsWith('sing'))
 			{
 				holdTimer += elapsed;
