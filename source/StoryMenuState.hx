@@ -30,7 +30,7 @@ class StoryMenuState extends MusicBeatState
 		['Satin-Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
 		['Senpai', 'Roses', 'Thorns'],
-		['Five Nights at Freddys', 'Its been so Long', 'Just Gold']
+		['Fnaf1', 'Fnaf2', 'Fnaf3']
 	];
 	var curDifficulty:Int = 1;
 
@@ -44,7 +44,7 @@ class StoryMenuState extends MusicBeatState
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
 		['senpai', 'bf', 'gf'],
-		['senpai', 'bf', 'gf']
+		['dad', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
@@ -55,7 +55,7 @@ class StoryMenuState extends MusicBeatState
 		"MOMMY MUST MURDER",
 		"RED SNOW",
 		"hating simulator ft. moawling",
-		"uh fnaf ig"
+		"Five Nights at Freddy's"
 	];
 
 	var txtWeekTitle:FlxText;
