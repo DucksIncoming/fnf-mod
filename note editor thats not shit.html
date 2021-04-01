@@ -2,3 +2,4 @@ this is a console application, edit "makeNotes.js"
 <script src="script for the note editor thats not shit.js"></script>
 <script src="makeNotes.js"></script>
 <script>console.log(JSON.stringify(window.song))</script>
+use <pre>"addNote(" + midi.tracks[0].notes.map((e,i,a) => [2*e.time-2*(a[i-1]||{time:0}).time, (e.midi%4==(a[i-1]||0).midi%4&&e.midi!=(a[i-1]||0).midi?((e.midi+[-1,1,2][e.midi%3])%4):e.midi%4)+4, 2*e.duration>0.25?2*e.duration-0.25:0]).join(");\naddNote(") + ");"</pre> to get notes from midi json file and https://www.visipiano.com/midi-to-json-converter/ to get json from midi
