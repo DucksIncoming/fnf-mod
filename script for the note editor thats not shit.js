@@ -36,3 +36,8 @@ var exportSection = () => {
 	window.song.song.notes.push(window.section);
 	clearSection();
 }
+a = 0;
+s = 1;
+w = 2;
+d = 3;
+dad = 4;
