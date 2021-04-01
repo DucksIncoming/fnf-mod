@@ -28,6 +28,7 @@ var clearSection = () => {
 	}
 }
 window.globalTimeStep = 0;
+var resetTime = () => {window.globalTimeStep = 0;}
 var addNote = (beatsFromLastNote, type, lengthInBeats) => {
 	window.globalTimeStep += msFromNote(beatsFromLastNote, window.song.song.bpm);
 	window.section.sectionNotes.push([window.globalTimeStep, type, msFromNote(lengthInBeats, window.song.song.bpm)]);
