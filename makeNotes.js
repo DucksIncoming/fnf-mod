@@ -732,5 +732,5 @@ addNote(1,5,0.75);
 addNote(1,5,1.75);
 addNote(2,6,1.75);
 
-exportSection();
+renderSections();
 
