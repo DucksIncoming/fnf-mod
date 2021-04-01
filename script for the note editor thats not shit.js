@@ -1,0 +1,1 @@
+var msFromNote = (beat, bpm) => beat*6e4/bpm;
