@@ -12,9 +12,13 @@ window.song = {
 		sections: 0,
 		song: undefined,
 		speed: 1,
-	}
+		validScore: true,
+	},
+	bpm: undefined,
+	notes: [],
+	sections: 0,
 }
-var setBpm = (e) => {window.song.song.bpm = e;}
+var setBpm = (e) => {window.song.song.bpm = e; window.song.bpm = e;}
 var setSpeed = (e) => {window.song.song.speed = e;}
 var setSong = (e) => {window.song.song.song = e;}
 var clearSection = () => {
@@ -39,6 +43,7 @@ var addNote = (beatsFromLastNote, type, lengthInBeats) => {
 }
 var exportSection = () => {
 	window.song.song.notes.push(window.section);
+	window.song.notes.push(window.section);
 	clearSection();
 }
 var renderSections = () => {
@@ -49,6 +54,8 @@ var renderSections = () => {
 		section.lengthInSteps = 16;
 		exportSection();
 	}
+	window.song.song.sections = window.song.notes.length;
+	window.song.sections = window.song.notes.length;
 }
 a = 0;
 s = 1;
